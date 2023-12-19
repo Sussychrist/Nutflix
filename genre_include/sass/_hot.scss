@@ -1,0 +1,15 @@
+/*---------------------
+ hot carousel
+-----------------------*/
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+#top-sale.owl-carousel .item {
+    margin-right: 10px; /* Adjust the margin as per your preference */
+}

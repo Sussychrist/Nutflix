@@ -1,0 +1,318 @@
+/* Apply styling to the container */
+.container {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background-image: url('../images/1331544.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+/* Style the card element */
+.card {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin-left: 230px;
+    margin-top: 70px;
+    margin-bottom: 140px;
+    width: 800px;
+    padding: 10px;
+}
+
+/* Enhance the header */
+.card-header {
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card-header h4 {
+    margin: 0;
+    font-size: 25px;
+    color: black;
+}
+.label {
+    font-weight: bold;
+    font-size: 15px;
+}
+/* Move the "Back" button to the top right corner */
+.btn-primary.float-end {
+    background-color:#e50914 ;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/* Customize Single Selection */
+.select2-container--default .select2-selection--single {
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Adjust Rendered Text Line Height and Color */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+    color: #333;
+}
+
+/* Customize Placeholder Color */
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #333;
+}
+
+/* Hide Arrow */
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    display: none;
+}
+.select2-dropdown .select2-results__option:hover {
+    background-color: #4BB543;
+    color: #fff; 
+}
+/* Focus Styles */
+.select2-container--default .select2-selection--single:focus {
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* Customize Dropdown */
+.select2-dropdown {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* Customize Dropdown Option */
+.select2-dropdown .select2-results__option {
+    padding: 8px;
+}
+
+/* Customize Selected Option in Dropdown */
+.select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: #E8E8E8;
+    color: #333;
+}
+/* Style the form */
+form {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px;
+    background-color: #fff;
+}
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Style labels */
+label {
+    font-weight:normal;
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style form controls */
+.form-control {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Style the "Save" button */
+.btn-primary {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* Style the file input field */
+input[type="file"] {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Style the textarea */
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* Add some spacing between elements */
+.row {
+    margin-bottom: 15px;
+}
+
+/* Style the "Save" button on hover */
+.btn-primary:hover {
+    background-color: #b2070e;
+}
+/* Style for the image upload and preview container */
+.image-upload {
+    position: relative;
+    width: 160px; 
+    height: 240px; 
+    border-radius: 7px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Style for the input element within the container (hidden) */
+.image-upload input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Style for the picture icon */
+.image-upload i {
+    font-size: 24px;
+    color: #333; /* Icon color */
+}
+/* Style for the wallpaper*/
+.wallpaper-upload {
+    position: relative;
+    width: 270px; 
+    height: 250px; 
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Style for the input element within the container (hidden) */
+.wallpaper-upload input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Style for the picture icon */
+.wallpaper-upload i {
+    font-size: 24px;
+    color: #333; /* Icon color */
+}
+/* Style the trailer upload container */
+.trailer-preview {
+    position: relative;
+    width: 270px; 
+    height: 150px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Style for the input element within the container (hidden) */
+.trailer-preview input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.trailer-preview video {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+/* Style the video upload container */
+.video-preview {
+    position: relative;
+    width: 270px; 
+    height: 150px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Style for the input element within the container (hidden) */
+.video-preview input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-preview video {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.square-image-container {
+    width: 160px; 
+    height: 240px; 
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for the image inside the square container */
+.square-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Movie Card */
+.square-wallpaper-container {
+    width: 270px; 
+    height: 250px; 
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for the image inside the square container */
+.square-wallpaper-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
