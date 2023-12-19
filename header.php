@@ -30,6 +30,7 @@
   <!-- alertify js -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
 </head>
+  <!-- alertify js -->
 <?php
 
 include('./config/config.php');
