@@ -1,7 +1,7 @@
 <?php
 $host ="localhost";
-$username = "root";
-$password= "";
+$username = "sussychrist";
+$password= "Loltime98!";
 $database="nutflix";
 // create database connection
 $con = mysqli_connect("$host", "$username", "$password", "$database");
@@ -13,3 +13,4 @@ if (!$con) {
 
 // use $con variable in code below
 ?>
+
