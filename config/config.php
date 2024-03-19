@@ -1,6 +1,6 @@
 <?php
 // Define your BASE_URL here
-define('BASE_URL', '/Film/Nutflix/');
+define('BASE_URL', 'http://27.71.26.49/');
 ?>
 
 <?php
