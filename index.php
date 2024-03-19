@@ -1,5 +1,6 @@
 
 <?php 
+echo "hello";
 session_start();
 include('header.php');
 ?>
