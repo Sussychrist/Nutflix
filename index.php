@@ -1,8 +1,6 @@
 
 <?php 
-echo "hello";
-echo "version 2";
-echo "hello32";
+
 session_start();
 include('header.php');
 ?>

@@ -13,4 +13,3 @@ if (!$con) {
 
 // use $con variable in code below
 ?>
-
