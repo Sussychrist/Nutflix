@@ -1,6 +1,6 @@
 
 <?php 
-echo "hello";
+echo "hello32";
 session_start();
 include('header.php');
 ?>
