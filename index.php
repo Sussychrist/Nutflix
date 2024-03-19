@@ -1,6 +1,7 @@
 
 <?php 
 echo "hello";
+echo "version 2";
 session_start();
 include('header.php');
 ?>
