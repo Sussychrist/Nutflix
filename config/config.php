@@ -1,6 +1,6 @@
 <?php
 // Define your BASE_URL here
-define('BASE_URL', 'http://27.71.26.49/');
+define('BASE_URL', 'http://103.163.215.117/');
 ?>
 
 <?php
