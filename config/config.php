@@ -1,4 +1,5 @@
 <?php
+echo"he";
 // Define your BASE_URL here
 define('BASE_URL', 'http://103.163.215.117/');
 ?>
