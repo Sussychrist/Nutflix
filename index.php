@@ -1,5 +1,6 @@
 
 <?php 
+echo("hieu");
 session_start();
 include('header.php');
 ?>
