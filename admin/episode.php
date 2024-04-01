@@ -66,7 +66,7 @@ include('includes/header.php');
                                         Your browser does not support the video tag.
                                     </video></td>
                                     <td><?= $episode['ep_name']; ?></td>
-                                    <td><?= $episode['ep_url']; ?></td>
+                                    <td><?= strlen($episode['ep_url']) > 30 ? substr($episode['ep_url'], 0, 30) . '...' : $episode['ep_url']; ?></td>
                                     <td style="width: 60px;">
                                         <a href="edit-episode.php?episode_id=<?= $episode['episode_id']; ?>" class="btn btn-primary">Edit</a>
                                     </td>
