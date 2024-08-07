@@ -1,7 +1,7 @@
 
 <?php
 $host ="localhost";
-$username = "localhost";
+$username = "root";
 $password= "";
 $database="nutflix";
 // create database connection
