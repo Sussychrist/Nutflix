@@ -1,8 +1,8 @@
 
 <?php
 $host ="localhost";
-$username = "sussychrist";
-$password= "Loltime98!";
+$username = "localhost";
+$password= "";
 $database="nutflix";
 // create database connection
 $con = mysqli_connect("$host", "$username", "$password", "$database");
